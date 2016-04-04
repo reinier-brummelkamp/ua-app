@@ -23,6 +23,7 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
     "jquery": "^2.1.4",
+    "es6-promise": "^3.2.1",
     "ua-event-aggregator": "^1.0.0",
     "ua-element-factory": "^1.0.0",
     "ua-route-manager": "^1.0.0",
