@@ -1,0 +1,38 @@
+{
+  "name": "ua-app",
+  "version": "1.0.0",
+  "authors": [
+    "Reinier Brummelkamp <reinier@urbanautomation.co.za>"
+  ],
+  "description": "App component for the Solitude framework",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "ua-app"
+  ],
+  "main": "App.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/reinier-brummelkamp/ua-app/",
+  "ignore": [
+    "/.gitattributes",
+    "/.gitignore",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "jquery": "^2.1.4",
+    "ua-event-aggregator": "^1.0.0",
+    "ua-element-factory": "^1.0.0",
+    "ua-route-manager": "^1.0.0",
+    "ua-notify": "^1.0.0",
+    "ua-cron-manager": "^1.0.0",
+    "ua-drawer": "^1.0.0",
+    "ua-modal-dialog-wrapper": "^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
