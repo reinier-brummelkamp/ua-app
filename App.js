@@ -11,7 +11,6 @@ var App = (function () {
         var _appContainer;
 
         // Private methods
-
         return {
             // Public variables
 
