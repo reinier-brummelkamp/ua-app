@@ -29,10 +29,10 @@ var App = (function () {
                 return ElementFactory.getInstance();
             },
             AppRouteManager: function () {
-                return RouteManager.getInstance(App);
+                return RouteManager.getInstance(_appContainer, ElementFactory.getInstance());
             },
             Notify: function () {
-                return Notify.getInstance(App);
+                return Notify.getInstance(_appContainer, ElementFactory.getInstance());
             },
             CRONManager: function () {
                 return CRONManager.getInstance();
@@ -40,8 +40,8 @@ var App = (function () {
             SocketManager: function() {
                 return SocketManager.getInstance();
             },
-            IdentityManager: function (getIdentityUrl) {
-                return IdentityManager.getInstance(getIdentityUrl);
+            IdentityManager: function (options) {
+                return IdentityManager.getInstance(options);
             }
         };
     };
