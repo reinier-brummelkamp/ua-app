@@ -1,6 +1,6 @@
 {
   "name": "ua-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "authors": [
     "Reinier Brummelkamp <reinier@urbanautomation.co.za>"
   ],
@@ -24,13 +24,15 @@
     "polymer": "Polymer/polymer#^1.0.0",
     "jquery": "^2.1.4",
     "es6-promise": "^3.2.1",
-    "ua-event-aggregator": "^1.0.0",
-    "ua-element-factory": "^1.0.0",
-    "ua-route-manager": "^1.0.0",
-    "ua-notify": "^1.0.0",
-    "ua-cron-manager": "^1.0.0",
-    "ua-drawer": "^1.0.0",
-    "ua-modal-dialog-wrapper": "^1.0.0"
+    "ua-event-aggregator": "~1.0.0",
+    "ua-element-factory": "~1.0.0",
+    "ua-route-manager": "~1.0.0",
+    "ua-notify": "~1.0.0",
+    "ua-cron-manager": "~1.0.0",
+    "ua-drawer": "~1.0.0",
+    "ua-modal-dialog-wrapper": "~1.0.0",
+    "ua-socket-manager": "~1.0.0",
+    "ua-identity-manager": "~1.0.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",

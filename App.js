@@ -36,6 +36,12 @@ var App = (function () {
             },
             CRONManager: function () {
                 return CRONManager.getInstance();
+            },
+            SocketManager: function() {
+                return SocketManager.getInstance();
+            },
+            IdentityManager: function (getIdentityUrl) {
+                return IdentityManager.getInstance(getIdentityUrl);
             }
         };
     };
