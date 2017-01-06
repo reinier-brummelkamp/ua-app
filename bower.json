@@ -1,6 +1,6 @@
 {
   "name": "ua-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "authors": [
     "Reinier Brummelkamp <reinier@urbanautomation.co.za>"
   ],
@@ -30,7 +30,6 @@
     "ua-cron-manager": "~1.0.0",
     "ua-drawer": "~1.0.0",
     "ua-modal-dialog-wrapper": "~1.0.0",
-    "ua-socket-manager": "~1.0.0",
     "ua-identity-manager": "~1.0.0"
   },
   "devDependencies": {
